@@ -1,76 +1,85 @@
 # 🏨 Hotel Management System
 
-A simple and user-friendly **Hotel Management System** developed to manage hotel operations such as room booking, customer information, room availability, and hotel records.
+A Python-based Hotel Management System designed to manage hotel rooms, customer information, booking details, and other hotel-related operations.
 
 ## 📌 Project Overview
 
-The **Hotel Management System** is designed to make hotel management easier by replacing manual record-keeping with a computerized system.
+The Hotel Management System is a simple application developed to make hotel management easier and more efficient.
 
-The system helps hotel staff manage:
+It helps manage important hotel activities such as:
 
-* 👤 Customer information
-* 🛏️ Room information
-* 📅 Room bookings
-* 💳 Billing and payment details
-* 🔍 Room availability
-* 📋 Hotel records
+- 👤 Customer management
+- 🛏️ Room management
+- 🏨 Hotel details
+- 📋 Booking details
+- 🖼️ Hotel images
+- 🎨 User interface and styling
+- 🔐 Environment configuration
+
+The project is developed using Python along with HTML and CSS.
 
 ## 🎯 Objectives
 
 The main objectives of this project are:
 
 1. To reduce manual work in hotel management.
-2. To maintain customer records efficiently.
-3. To manage room bookings easily.
-4. To check room availability.
-5. To reduce errors in maintaining hotel records.
-6. To provide a simple and user-friendly system.
+2. To store and manage customer information.
+3. To manage hotel room details.
+4. To provide an easy way to handle hotel-related information.
+5. To provide a simple and user-friendly interface.
+6. To improve the efficiency of hotel management.
 
 ## ✨ Features
 
-* Customer Registration
-* Room Booking
-* Room Availability Checking
-* Customer Record Management
-* Room Record Management
-* Booking Management
-* Billing Management
-* Search and Update Records
-* Easy-to-use Interface
+- 👤 Customer Management
+- 🛏️ Room Management
+- 🏨 Hotel Information Management
+- 📋 Details Management
+- 🖼️ Hotel Images
+- 🌐 HTML-based Web Pages
+- 🎨 CSS Styling
+- ⚙️ Environment Variable Configuration
+- 🎮 Additional Survival Game Module
 
 ## 🛠️ Technologies Used
 
-| Technology    | Purpose                    |
-| ------------- | -------------------------- |
-| HTML          | Web page structure         |
-| CSS           | Website design and styling |
-| JavaScript    | Client-side functionality  |
-| MySQL         | Database management        |
-| PHP / Backend | Server-side processing     |
-
-> **Note:** Update the technology list according to the actual technologies used in your project.
+| Technology | Purpose |
+|---|---|
+| 🐍 Python | Main programming language |
+| 🌐 HTML | Web page structure |
+| 🎨 CSS | Website styling |
+| 🖼️ Images | Hotel images and visual content |
+| ⚙️ `.env` | Environment configuration |
+| 📦 Python Libraries | Project functionality |
 
 ## 📂 Project Structure
 
 ```text
-hotel-management-system/
+hotel_management_system/
 │
-├── index.html
-├── login.html
-├── booking.html
-├── rooms.html
-├── customers.html
-├── payment.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── images/
-│   └── ...
-├── database/
-│   └── hotel_management.sql
+├── .vscode/
+│
+├── __pycache__/
+│
+├── hotel images/
+│   └── Hotel related images
+│
+├── .env
+├── .gitignore
+│
+├── customer.py
+├── details.py
+├── hotel.py
+├── room.py
+├── survival_game.py
+│
+├── pra 4.html
+├── pra 5.html
+│
+├── style.css
+├── style1.css
+│
 └── README.md
-```
 
 > The file names above are examples. Change them according to your actual project files.
 
@@ -102,16 +111,6 @@ hotel_management_system
 
 ### Step 4: Run the Project
 
-If you are using XAMPP:
-
-1. Start **Apache**.
-2. Start **MySQL**.
-3. Place the project inside:
-
-```text
-C:\xampp\htdocs\
-```
-
 4. Open your browser and visit:
 
 ```text
@@ -122,28 +121,8 @@ http://localhost/hotel-management-system/
 
 * Windows / Linux / macOS
 * Web Browser
-* XAMPP or similar local server
 * MySQL
 * Code Editor such as VS Code
-
-## 📸 Screenshots
-
-Add screenshots of your project here:
-
-```text
-screenshots/
-├── home.png
-├── login.png
-├── booking.png
-├── rooms.png
-└── payment.png
-```
-
-Example:
-
-```markdown
-![Home Page](screenshots/home.png)
-```
 
 ## 🔮 Future Enhancements
 
